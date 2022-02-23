@@ -1,0 +1,31 @@
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  margin-bottom: 110px;
+  padding: 20px;
+
+  @media screen and (max-width: 815px) {
+    position: relative;
+    margin-left: 0;
+    margin-top: 270px;
+  }
+}
+
+section article {
+  margin: 15px;
+}
+
+section li {
+  margin: 15px 0 0 20px;
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  line-height: 2;
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}

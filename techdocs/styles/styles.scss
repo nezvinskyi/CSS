@@ -1,0 +1,25 @@
+@import './variables';
+@import './main';
+@import './navbar';
+* {
+  box-sizing: border-box;
+  // margin: 0;
+}
+
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+  margin: 10px;
+  color: $headline_color;
+  font-weight: lighter;
+  font-size: 1.8em;
+}
+
+body {
+  min-width: 290px;
+  color: $text_color;
+  background-color: #fff;
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
